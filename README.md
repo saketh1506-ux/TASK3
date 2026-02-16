@@ -2,13 +2,13 @@
 ## Screenshots
 
 ### GET /books
-![GET Books](screenshots/get.png)
+![GET Books](GET.png)
 
 ### POST /books
-![POST Book](screenshots/post.png)
+![POST Book](POST.png)
 
 ### PUT /books/:id
-![PUT Book](screenshots/put.png)
+![PUT Book](PUT.png)
 
 ### DELETE /books/:id
-![DELETE Book](screenshots/delete.png)
+![DELETE Book](DELETE.png)

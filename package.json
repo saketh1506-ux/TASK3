@@ -1,13 +1,25 @@
 {
-  "name": "task1",
+  "name": "nodejs-books-rest-api",
   "version": "1.0.0",
-  "description": "This project is a simple landing page built using:\r HTML5\r CSS\r Flex-box\r Media Queries",
-  "main": "book.js",
+  "description": "Simple REST API to manage books using Node.js and Express with CRUD operations stored in memory.",
+  "main": "task3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node task3.js",
+    "dev": "nodemon task3.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "books",
+    "crud"
+  ],
+  "author": "saketh",
   "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
 }
